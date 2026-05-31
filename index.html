@@ -1,0 +1,278 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arquitectura | Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <section class="hero">
+        <div class="hero__bg" aria-hidden="true"></div>
+
+        <header class="hero__top">
+          <div class="brand">
+            <span class="brand__mark"></span>
+            <div>
+              <p class="brand__eyebrow">Demo de landing profesional</p>
+              <h1>Demo landing-page sobre Arquitecto</h1>
+            </div>
+          </div>
+        </header>
+
+        <div class="hero__content">
+          <div class="hero__copy reveal">
+            <p class="kicker">Presentación</p>
+            <h2>Una demo pensada para promocionar tu proyecto, servicio o marca</h2>
+            <p class="lead">
+              Esta landing está diseñada como un ejemplo profesional para mostrar lo que
+              quieras destacar: proyectos de arquitectura, servicios creativos, ideas de
+              diseño, emprendimientos o cualquier propuesta que quieras promocionar con
+              una imagen clara, moderna y atractiva.
+            </p>
+
+            <div class="hero__pills">
+              <span>Sube tus proyectos</span>
+              <span>Promociona tu servicio</span>
+              <span>Vende tu idea</span>
+            </div>
+          </div>
+
+          <div class="hero__portrait reveal" aria-label="Retrato del arquitecto">
+            <img
+              src="assets/architect.png"
+              alt="Retrato del arquitecto"
+              loading="eager"
+              decoding="async"
+            />
+          </div>
+        </div>
+      </section>
+
+      <div class="floating-messages" aria-label="Comentarios de clientes">
+        <article class="testimonial-bubble testimonial-bubble--large reveal">
+          <div class="testimonial-bubble__top">
+            <div>
+              <strong>Lucía M.</strong>
+              <span>Departamento en obra</span>
+            </div>
+            <div class="testimonial-bubble__stars" aria-label="5 estrellas">
+              &#9733;&#9733;&#9733;&#9733;&#9733;
+            </div>
+          </div>
+          <p>
+            "Tomó una idea muy abierta y la convirtió en un proyecto claro, ordenado y
+            hermoso. Nos acompañó en cada decisión."
+          </p>
+        </article>
+
+        <article class="testimonial-bubble testimonial-bubble--small reveal">
+          <div class="testimonial-bubble__top">
+            <div>
+              <strong>Martín R.</strong>
+              <span>Reforma integral</span>
+            </div>
+            <div class="testimonial-bubble__stars" aria-label="5 estrellas">
+              &#9733;&#9733;&#9733;&#9733;&#9733;
+            </div>
+          </div>
+          <p>
+            "Excelente criterio para proponer ideas. El resultado final superó
+            totalmente lo que imaginábamos."
+          </p>
+        </article>
+
+        <article class="testimonial-bubble testimonial-bubble--medium reveal">
+          <div class="testimonial-bubble__top">
+            <div>
+              <strong>Paula G.</strong>
+              <span>Diseño de interior</span>
+            </div>
+            <div class="testimonial-bubble__stars" aria-label="5 estrellas">
+              &#9733;&#9733;&#9733;&#9733;&#9733;
+            </div>
+          </div>
+          <p>
+            "Muy buen acompañamiento desde la primera reunión hasta la ejecución. Se
+            sintió como un proceso muy cuidado."
+          </p>
+        </article>
+      </div>
+
+      <section class="showcase reveal" id="especialidad">
+        <div class="showcase__copy">
+          <p class="section-tag">Especialidad</p>
+          <h3>Planificación de proyectos, ideas de diseño y puesta en realidad</h3>
+          <p>
+            El servicio se centra en planificar proyectos, desarrollar ideas de diseño y
+            transformar cada concepto en una obra concreta. Acompaño el proceso desde la
+            idea inicial hasta llevar tu sueño a la realidad, con soluciones claras,
+            funcionales y coherentes con cada necesidad.
+          </p>
+        </div>
+
+        <div class="showcase__image">
+          <img
+            src="assets/building.png"
+            alt="Edificio representativo del estudio"
+            loading="lazy"
+            decoding="async"
+          />
+        </div>
+      </section>
+
+      <section class="projects" aria-labelledby="proyectos-title">
+        <div class="projects__header reveal">
+          <p class="section-tag section-tag--dark">Proyectos</p>
+          <h3 id="proyectos-title">Mis proyectos, tus sueños hechos realidad</h3>
+        </div>
+
+        <div class="projects__grid">
+          <article class="project-card reveal">
+            <div class="project-card__image">
+              <img
+                src="assets/project-1.png"
+                alt="Rediseño de interior, monoambiente"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="project-card__body">
+              <p>Rediseño de interior, monoambiente</p>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card__image">
+              <img
+                src="assets/project-2.png"
+                alt="Residencia de 2 pisos con diseño eficiente"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="project-card__body">
+              <p>Residencia de 2 pisos con diseño eficiente</p>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card__image">
+              <img
+                src="assets/project-3.png"
+                alt="Casa de playa con vista al mar y diseño elegante"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="project-card__body">
+              <p>Casa de playa con vista al mar y diseño elegante</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="workflow" aria-labelledby="workflow-title">
+        <div class="workflow__header reveal">
+          <p class="section-tag section-tag--dark">Proceso</p>
+          <h3 id="workflow-title">¿Cómo trabajo?</h3>
+          <p>
+            Cada proyecto empieza con una idea, se ordena con criterio técnico y se
+            transforma en una propuesta clara para poder construir con seguridad.
+          </p>
+        </div>
+
+        <div class="workflow__map" aria-label="Mapa conceptual del proceso de trabajo">
+          <div class="workflow__spine" aria-hidden="true"></div>
+
+          <article class="workflow-node workflow-node--left reveal">
+            <span class="workflow-node__step">01</span>
+            <div class="workflow-node__card">
+              <h4>Idea y relevamiento</h4>
+              <p>
+                Se conversa con el cliente, se entiende la necesidad real del espacio y
+                se relevan las condiciones iniciales del proyecto.
+              </p>
+            </div>
+          </article>
+
+          <article class="workflow-node workflow-node--right reveal">
+            <span class="workflow-node__step">02</span>
+            <div class="workflow-node__card">
+              <h4>Presupuesto y propuesta</h4>
+              <p>
+                Se define un presupuesto estimado, se organiza la idea principal y se
+                prepara una propuesta de diseño alineada con los objetivos del cliente.
+              </p>
+            </div>
+          </article>
+
+          <article class="workflow-node workflow-node--left reveal">
+            <span class="workflow-node__step">03</span>
+            <div class="workflow-node__card">
+              <h4>Revisión y aprobación</h4>
+              <p>
+                La propuesta se revisa en conjunto, se ajustan detalles y, una vez
+                aprobada, se define el camino para avanzar con confianza.
+              </p>
+            </div>
+          </article>
+
+          <article class="workflow-node workflow-node--right reveal">
+            <span class="workflow-node__step">04</span>
+            <div class="workflow-node__card">
+              <h4>Planificación de obra</h4>
+              <p>
+                Se organiza la construcción, se seleccionan materiales y se planifica la
+                ejecución para que el proyecto avance de forma clara y eficiente.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact" aria-labelledby="contact-title">
+        <div class="contact__intro reveal">
+          <p class="section-tag section-tag--dark">Contacto</p>
+          <h3 id="contact-title">Contame tu idea y la transformamos en proyecto</h3>
+          <p>
+            Si ya tenés una idea en mente, dejame tus datos y te contacto para empezar a
+            darle forma con una propuesta clara y bien pensada.
+          </p>
+        </div>
+
+        <form class="contact__form reveal">
+          <label class="field">
+            <span>Nombre y apellido</span>
+            <input type="text" name="name" placeholder="Tu nombre completo" />
+          </label>
+
+          <label class="field">
+            <span>Correo electrónico</span>
+            <input type="email" name="email" placeholder="tu@correo.com" />
+          </label>
+
+          <label class="field field--full">
+            <span>Idea que tienes en mente</span>
+            <textarea
+              name="idea"
+              rows="6"
+              placeholder="Contame qué te gustaría construir, diseñar o reformar..."
+            ></textarea>
+          </label>
+
+          <button type="submit" class="contact__button">Enviar consulta</button>
+        </form>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
